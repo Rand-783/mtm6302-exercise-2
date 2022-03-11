@@ -18,7 +18,6 @@ const images = [
 
 for (let i = 0; i < 12; i++){
     $content.innerHTML += `<img src='images/${images[i]}.jpg'>`
-
 }
 
 $content.addEventListener('click', function(e){
